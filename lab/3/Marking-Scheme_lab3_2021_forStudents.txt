@@ -1,0 +1,21 @@
+Total: 100 marksBonus: 20 marksOverall: 120 marks
+
+Demo - correct output:  total 55 marks:
+	tests (1-21) 2 marks each
+	test 22: 13 marks 
+Instruction: Please add the following in your BSTSet.java file in order to run the TestBSTSet.java file.     public TNode getRoot()    {    	return root;    }    
+Note: 1. The 13 marks for test22 is divided into implementing printNonRec() and printLevelOrder(), each class having 7.5 marks. --> The mark for testing method printNonRec() is 7.5. The TA should check their code and if they do not implement the method nonrecursively using a stack deduct all 7.5 marks. --> The mark for testing  printLevelOrder() is 7.5. TA should check whether the all the integers have been printed in the right level order. Following is an example of such implementation. Eg. The elements of the BST: {37, 22, 55, 7, 5, 6}Level 1 -> 7; level 2-> 5, 37; level 3 -> 6, 22, 55.
+      2. Students should also submit the code for the MyStack and MyQueue classes for the non-recursive inorder traversal and for the level order traversal, respectively. Using built-in Java API for the Stack and Queue is not permitted.
+Answering questions: 25 marks
+
+Runtime: 10 marks
+The students should show you a runtime analysis for all methods they wrote for the lab.  
+Have only one private field - root: 10 marks
+The BSTSet should have only one private field which is a TNode reference to the root of the BST.
+
+BONUS - 20 marks
+For the bonus (20 marks) - Test 23 + Students must also provide a clear explanation justifying how the balance conditions are met.  How do they guarantee the the minimum height of the tree is achieved each time?
+
+
+
+
